@@ -26,7 +26,7 @@ SOFTWARE.
 
 class mr(object):
     PROGRESS_BAR = """\n
-╭━━━━❰ @Downloading... ❱━➣
+╭━━━━❰ Downloading... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s

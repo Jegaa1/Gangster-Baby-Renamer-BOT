@@ -41,20 +41,20 @@ async def start(client, message):
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/+BMnH-D8PgTYxZTk1'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/+BMnH-D8PgTYxZTk1')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/Jasuranserials'),
+        InlineKeyboardButton('🤝 Support', url='https://t.me/Jasuranserials')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
         ],[
         InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://t.me/Tamilan224')
         ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/+BMnH-D8PgTYxZTk1')
+        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/Jasuranserials')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://t.me/Tamilan224')
+        InlineKeyboardButton("❤️ Join ❤️", url='https://t.me/Jasuranserials')
         ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/tamilanda29'),
-        InlineKeyboardButton("📝Admin-Friend", url='https://t.me/ShakthiMS')
+        InlineKeyboardButton("📝Admin-TG", url='https://t.me/JAsuran2p0'),
+        InlineKeyboardButton("📝Admin-Friend", url='https://t.me/JAsuran1234_bot')
         ]
         ])
     if START_PIC:
@@ -78,14 +78,14 @@ async def rename_start(client, message):
     fileid = file.file_id
     try:
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("📝 𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename") ],
+        buttons = [[ InlineKeyboardButton("📝 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename") ],
                    [ InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
         await sleep(FLOOD)
     except FloodWait as e:
         await sleep(e.value)
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("📝 𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename") ],
+        buttons = [[ InlineKeyboardButton("📝 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename") ],
                    [ InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     except:
@@ -100,20 +100,20 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
         InlineKeyboardButton("😈 Developer 😈", callback_data='shakthi')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/+BMnH-D8PgTYxZTk1'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/Tamilan224')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/JAsuranserials'),
+        InlineKeyboardButton('🤝 Support', url='https://t.me/JAsuranserials')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
         ],[
         InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://t.me/Tamilan224')
         ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/+BMnH-D8PgTYxZTk1')
+        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/newhevcmovies')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://t.me/Tamilan224')
+        InlineKeyboardButton("❤️ Join ❤️", url='https://t.me/JAsuran Serials')
         ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/tamilanda29'),
-        InlineKeyboardButton("📝Admin-Friend", url='https://t.me/ShakthiMS')
+        InlineKeyboardButton("📝Admin-TG", url='https://t.me/JAsuran2p0'),
+        InlineKeyboardButton("📝Admin-Friend", url='https://t.me/JAsuran1234_bot')
         ]
         ]
                 )

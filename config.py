@@ -8,7 +8,7 @@ API_HASH = os.environ.get("API_HASH", "fcdc178451cd234e63faefd38895c991")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "1965973276:AAFngpmzKFyESfcvQscv7S7Dmus7N-nksWI") 
 
-FORCE_SUB = os.environ.get("FORCE_SUB", "AsuranMoviefinder") 
+FORCE_SUB = "AsuranMoviefinder"
 
 DB_NAME = os.environ.get("DB_NAME","asuranj")     
 
